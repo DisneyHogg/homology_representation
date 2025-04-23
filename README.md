@@ -3,7 +3,7 @@ This repository contains Sage code developed for the paper [Explicit Homology Re
 
 Given a generating vector for a group $G$ acting on a Riemann surface $S$ with quotient genus 0, the function `homology_representation` computes the representation of $G$ acting on $H_1(S; R)$ for appropriate rings $R$. To use the function, download `hom_reps.py` and in Sage run `load("/.../hom_reps.py")`.
 
-`Tutorial.ipynb` demonstrates how the code may be used. The folder `Companion_Files` contains files used in the tutorial, including the method of BRR and precomputed files listing all topologically inequivalent generating vectors acting in genus $2 \leq \sigma \leq 12$. 
+`Tutorial.ipynb` demonstrates how the code may be used. The folder `Companion_Files` contains files used in the tutorial, including the method of BRR, precomputed files listing all topologically inequivalent generating vectors acting in genus $2 \leq \sigma \leq 12$, and the comparison of runtimes referred to in the paper. 
 
 ## Requirements
 I shall not give a complete list of system requirements, but as a rough guideline:
