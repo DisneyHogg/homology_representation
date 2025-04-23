@@ -8,7 +8,8 @@ Given a generating vector for a group $G$ acting on a Riemann surface $S$ with q
 ## Requirements
 I shall not give a complete list of system requirements, but as a rough guideline:
 * the bulk of the code was written in [Sage](https://www.sagemath.org/) version 9.7,
-* notebooks were written in Jupyter.
+* notebooks were written in Jupyter,
+* to run the comparison against the BRR code the additional GAP package `kbmag` will need to be installed in the version of GAP Sage uses.
 
 ## Acknowledgements
 Not all the code contained in this repository is written by me. I had no part in writing `polyB.sage`; this was programmed by [Antonino Behn and Anita Rojas](https://github.com/rojas-ani/sage-routines) for the paper [*Adapted hyperbolic polygons and symplectic representations for group actions on Riemann surfaces*](https://doi.org/10.1016/j.jpaa.2012.06.030) by Antonio Behn, Rubí E. Rodríguez and Anita M. Rojas. I have included it here for ease of access, as I use it for comparison.
