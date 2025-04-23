@@ -5,6 +5,6 @@ Given a generating vector for a group $G$ acting on a Riemann surface $S$ with q
 
 ## Requirements
 I shall not give a complete list of system requirements, but as a rough guideline:
-* the bulk of the code was written in [Sage](https://www.sagemath.org/) version 9.4,
+* the bulk of the code was written in [Sage](https://www.sagemath.org/) version 9.7,
 * notebooks were written in Jupyter. 
 
