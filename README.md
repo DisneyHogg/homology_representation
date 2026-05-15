@@ -11,6 +11,9 @@ I shall not give a complete list of system requirements, but as a rough guidelin
 * notebooks were written in Jupyter,
 * to run the comparison against the BRR code the additional GAP package `kbmag` will need to be installed in the version of GAP Sage uses.
 
+### Remarks
+This code has been tested succesfully on Sage version 9.7 and 9.8, but is known to fail in version 10.7 due to changes in the GAP interface. If there if sufficient demand then this code should be versioned to allow consistency.
+
 ## Acknowledgements
 Not all the code contained in this repository is written by me. I had no part in writing `polyB.sage`; this was programmed by [Antonino Behn and Anita Rojas](https://github.com/rojas-ani/sage-routines) for the paper [*Adapted hyperbolic polygons and symplectic representations for group actions on Riemann surfaces*](https://doi.org/10.1016/j.jpaa.2012.06.030) by Antonio Behn, Rubí E. Rodríguez and Anita M. Rojas. I have included it here for ease of access, as I use it for comparison.
 
