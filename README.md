@@ -1,5 +1,5 @@
 # Action of Riemann surface automorphisms on homology.
-This repository contains Sage code developed for the paper [Explicit Homology Representation for Finite Groups Acting on Riemann Surfaces](), written by myself and S. Allen Broughton. 
+This repository contains Sage code developed for the paper [Explicit Homology Representation for Finite Groups Acting on Riemann Surfaces](https://arxiv.org/abs/2606.13922), written by myself and S. Allen Broughton. 
 
 Given a generating vector for a group $G$ acting on a Riemann surface $S$ with quotient genus 0, the function `homology_representation` computes the representation of $G$ acting on $H_1(S; R)$ for appropriate rings $R$. To use the function, download `hom_reps.py` and in Sage run `load("/.../hom_reps.py")`.
 
